@@ -174,7 +174,7 @@ app.post('/send-message', [
   if (!errors.isEmpty()) {
     return res.status(422).json({
       status: false,
-      message: errors.mapped()
+      message: 'lu salah'
     });
   }
 
